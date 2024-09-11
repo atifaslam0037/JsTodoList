@@ -1,0 +1,57 @@
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 77%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-task-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #2196F3;
+    color: white;
+    margin-left: auto;
+}
+
+.remove-btn {
+    background-color: #f44336;
+    color: white;
+    margin-left: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+}
+
+.edit-input {
+    display: none;
+    margin-left: 10px;
+}
